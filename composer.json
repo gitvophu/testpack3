@@ -1,0 +1,26 @@
+{
+    "name": "lcn/packagetestapp",
+    "authors": [
+        {
+            "name": "Nguyen Linh Chan",
+            "email": "linhchannguyen94@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+            "Tests\\": "tests/"
+        }
+    }
+}
